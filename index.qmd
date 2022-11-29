@@ -1,0 +1,22 @@
+---
+title: "Stefan"
+navbar: false
+search: false
+about:
+  template: jolla
+  image: drawing.svg
+  links:
+    - icon: mastodon
+      text: Fosstodon
+      href: https://fosstodon.org/@stefur
+    - icon: github
+      text: Github
+      href: https://github.com/stefur
+format:
+  html:
+    link-external-icon: false
+    link-external-newwindow: true
+---
+
+[`CB62 09CD 94B7 62DC 43E0 4F44 2C60 427B CF2B BD97`](https://keys.openpgp.org/vks/v1/by-fingerprint/CB6209CD94B762DC43E04F442C60427BCF2BBD97)
+
