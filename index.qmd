@@ -22,4 +22,5 @@ format:
   html:
     link-external-icon: false
     link-external-newwindow: true
+    css: styles.css
 ---
