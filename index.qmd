@@ -11,7 +11,7 @@ about:
       href: mailto:hello@furne.net
     - icon: key-fill
       text: PGP
-      href: https://furne.net/public_key.txt
+      href: public_key.txt
     - icon: mastodon
       text: Fosstodon
       href: https://fosstodon.org/@stefur
