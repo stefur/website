@@ -1,0 +1,119 @@
+body,
+h1,
+h2,
+p,
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #fff;
+    font-weight: 600;
+    color: #444;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2d2d2d;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.main-content {
+    text-align: center;
+    padding: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+p {
+    font-size: 1.125em;
+    margin-bottom: 1em;
+}
+
+pre {
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+    line-height: 1em;
+    white-space: pre-wrap;
+    margin-top: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-links {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    margin-right: 1em;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.contact-links a:hover {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.contact-links a:before {
+    margin-right: 0.2em;
+}
+
+.contact-links .email-icon:before {
+    content: "\1F4E8";
+}
+
+.contact-links .pgp-icon:before {
+    content: "\1F511";
+}
+
+.contact-links .mastodon-icon:before {
+    content: "\1F418";
+}
+
+.contact-links .github-icon:before {
+    content: "\1F4BB";
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    pre {
+        font-size: 0.5em;
+    }
+}
